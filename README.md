@@ -1,26 +1,23 @@
-<div style="text-align: center;"> 
-<h1>Projeto My Movies</h1>
-
-[Sobre](#sobre) || [Deploy](#deploy) || [Utilizacao](#utilizacao) || [Contato](#contato)
+<div align="center"> 
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+    <img src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white" alt="HTML">
+    </a>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
+    <img src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white" alt="CSS">
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black" alt="JavaScript">
+    </a>
 </div>
 
+<div align="center"> 
+  <h1>Projeto My Movies</h1>
+    
+  [Sobre](#sobre)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Deploy](#deploy)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Utilizacao](#utilizacao)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Contato](#contato)
 
+</div>
 
 https://github.com/ABeatrizSC/my-movies/assets/105675205/41af8171-eaed-4928-88fc-b55fde73db46
-
-
-
-<div style="text-align: center;"> 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
-<img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white">
-</a>
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
-<img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white">
-</a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black">
-</a>
-</div>
 
 <h2 name="sobre">📝Sobre</h2>
 <ul>
