@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Com este projeto, é possível salvar sua lista de filmes para se lembrar de assistir mais tarde.">
+    <title>MyMovies</title>
+    <link rel="stylesheet" href="src/styles/global.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/modal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="src/images/movie-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/notie-master/dist/notie.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container-h2">
+            <i class="bi bi-film search-icon"></i>
+            <h2 class="header__h2-title">MyMovies</h2>
+        </div>
+        <div class="header__container-inputs">
+            <div class="input-wrapper">
+                <label for="movie-name">Title:</label>
+                <input type="text" id="movie-name">
+            </div>
+            <div class="input-wrapper">
+                <label for="movie-name">Year:</label>
+                <input type="text" id="movie-year" maxlength="4">
+            </div>
+            <button id="button-search">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <h2>Start your movie list now!</h2>
+        <section id="movie-list">
+        </section>
+        <article id="modal-overlay" class="overlay-hidden">
+            <section id="modal-background"></section>
+                <section id="modal-container">
+                </section>
+        </article>
+    </main>
+    <footer>
+        <a target="_blank" href="https://github.com/ABeatrizSC">
+            <span class="bi bi-github">ABeatrizSC</span>
+        </a>
+    </footer>
+    <script src="./src/scripts/script.js"></script>
+    <script src="./src/scripts/modal.js"></script>
+    <script src="./src/scripts/key.js"></script>
+    <script src="./src/notie-master/dist/notie.min.js"></script>
+</body>
+</html>

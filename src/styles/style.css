@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+    height: 7.5rem;
+    background-color: var(--night);
+    padding: 2rem 3rem;
+    box-shadow: 0px 6px 17px -6px rgba(0,0,0,0.75);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.header__container-h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+i {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.header__container-inputs {
+    display: flex;
+    gap: 2rem;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+input#movie-year {
+    width: 6rem;
+}
+
+#movie-list {
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#movie-list article {
+    width: 30rem;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: -1px -1px 9px 0px rgba(5, 5, 5, 0.224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#movie-list article > img {
+    border-radius: 1rem;
+    width: 25rem;
+    height: 35rem;
+}
+
+#movie-list article > button {
+    background-color: var(--night); 
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+    padding: 0.9rem;
+    border: 0.2rem solid var(--night);
+    border-radius: 0.7rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    transition: background-color 300ms ease;
+}
+
+#movie-list article > button:hover,  #movie-list article > button:focus{
+    background-color: var(--falu-red); 
+    border-color: var(--falu-red);
+}
+
+#movie-list article > button > i {
+    font-size: 1.5rem;
+}
+
+footer {
+    width: 100%;
+    height: 3.5rem;
+    background-color: var(--night);
+    font-size: 1.5rem;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a, a span {
+    font-size: 1.7rem;
+    color: inherit;
+    text-decoration: none;
+    transition: color 300ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+footer a:hover {
+    color: var(--falu-red);
+} 
