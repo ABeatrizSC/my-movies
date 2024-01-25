@@ -25,7 +25,7 @@ https://github.com/ABeatrizSC/my-movies/assets/105675205/41af8171-eaed-4928-88fc
   <li>Este projeto funciona como um lembrete de filmes e séries não vistos, mas que estão em sua lista de desejos;</li>
   <li>Possui integração com a API OMDb, a qual é responsável por retornar os conteúdos a partir de sua busca;</li>
   <li>Possui validação de entradas e tratamento de erros, nos quais foram utilizados a biblioteca de notificações Notie.js; </li>
-  <li>Pacotes de ícones e fontes retirados do site Bootstrap Icons e Google Fonts, respectivamente;</li>
+  <li>Pacotes de ícones e fontes retirados dos sites Bootstrap Icons e Google Fonts, respectivamente;</li>
   <li>Layout responsivo [Em desenvolvimento].</li>
 </ul>
 
@@ -40,7 +40,7 @@ https://github.com/ABeatrizSC/my-movies/assets/105675205/41af8171-eaed-4928-88fc
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/css" target="_blank">CSS</a>;</li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript" target="_blank">JavaScript</a>;</li>
   <li><a href="https://www.omdbapi.com/" target="_blank">API OMDb</a>;</li>
-  <li><a href="https://www.npmjs.com/package/notie" target="_blank">Notie Js</a>;</li>
+  <li><a href="https://www.npmjs.com/package/notie" target="_blank">Notie Js</a>.</li>
 </ul>
 <p>Ícones e Fontes:</p>
 <ul>
