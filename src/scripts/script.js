@@ -16,10 +16,9 @@ document.addEventListener('keydown', (event) => {
 
 async function searchButtonClickHandler() {
     try {
-        let url = `http://www.omdbapi.com/?apikey=${key}&t=${movieNameParameterGenerator()}&y=${movieYearParameterGenerator()}`;
+        let url = `https://www.omdbapi.com/?apikey=${key}&t=${movieNameParameterGenerator()}&y=${movieYearParameterGenerator()}`;
         const resposta = await fetch(url);
         const data = await resposta.json();
-/*         console.log('data', data); */
 
         if (data.Error) {
             throw new Error('Movie not found. Make sure it has the original title.');
