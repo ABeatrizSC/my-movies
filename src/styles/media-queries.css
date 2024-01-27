@@ -3,4 +3,31 @@
         gap: 4rem;
         padding-bottom: 5rem;
     }
+
+    input#movie-name {
+        width: 7rem;
+    }
+
+    input#movie-year {
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    .header__h2-title {
+        font-size: 1.4rem;
+    }
+
+    .header__container-inputs {
+        gap: 1rem;
+    }
+
+    input#movie-name {
+        width: 5rem;
+    }
+
+    i {
+        font-size: 1.7rem;
+    }
+    
 }
