@@ -22,9 +22,10 @@ https://github.com/ABeatrizSC/my-movies/assets/105675205/41af8171-eaed-4928-88fc
 <h2 name="sobre">📝Sobre</h2>
 <ul>
   <li>Feito durante o módulo 8 do curso de JavaScript Impressionador da Hashtag Treinamentos;</li>
-  <li>Este projeto funciona como um lembrete de filmes e séries não vistos, mas que estão em sua lista de desejos;</li>
-  <li>Possui integração com a API OMDb, a qual é responsável por retornar os conteúdos a partir de sua busca;</li>
-  <li>Possui validação de entradas e tratamento de erros, nos quais foram utilizados a biblioteca de notificações Notie.js; </li>
+  <li>Este projeto que utiliza <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> funciona como um lembrete de filmes e séries não vistos, mas que estão em sua lista de desejos;</li>
+  <li>Possui integração com a <strong>API OMDb</strong>, a qual é responsável por retornar as informações a partir de sua busca;</li>
+  <li>Possui validação de entradas e tratamento de erros, nos quais foram utilizados a biblioteca de notificações <strong>Notie js</strong>;</li>
+  <li>Utiliza o <strong>LocalStorage</strong> para armazenar os dados do site, assim, a lista de filmes/séries não será perdida ao recarregar a página; </li>
   <li>Pacotes de ícones e fontes retirados dos sites Bootstrap Icons e Google Fonts, respectivamente;</li>
   <li>Layout responsivo [Em desenvolvimento].</li>
 </ul>
